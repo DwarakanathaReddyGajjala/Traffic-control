@@ -1,5 +1,5 @@
 `include"trafficcontroller.v"
-module test;
+module test_traffic;
 reg clk,x,start;
 wire [2:0] highway,country;
 traffic a0(x,clk,highway,country,start);
@@ -15,4 +15,5 @@ begin
 $monitor("highway=%b,country=%b",highway,country);
 #500 $finish;
 end
+
 endmodule
