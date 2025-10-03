@@ -1,7 +1,6 @@
 # traffic-light-controller
 
-##  Traffic Light Controller (Verilog HDL)
-
+## Overview
 This project implements a traffic light controller using a Finite State Machine (FSM) in Verilog HDL.
 
 The controller manages two roads: a highway (main road) and a country road (side road).
